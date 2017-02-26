@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topbar"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="#5CACEE"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp" >
+    
+     <ImageView
+            android:id="@+id/topbar_menu_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/topbar_menu_left" />
+
+        <TextView
+            android:id="@+id/topbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="MySocial"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:typeface="monospace" />
+
+        <ImageView
+            android:id="@+id/topbar_menu_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_action_edit" />
+    
+
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="#5CACEE" >
+    
+    <Button 
+        android:id="@+id/btn_back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/btn_back_selector"/>
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="分享"
+        android:textColor="@android:color/white"
+        android:layout_centerInParent="true"/>
+    
+    <Button 
+        android:id="@+id/btn_true"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/btn_true_selector"/>
+    
+
+</RelativeLayout>

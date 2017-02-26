@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">图点</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_editctivity">Editctivity</string>
+    <string name="title_activity_comment">CommentActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_person_edit">PersonEditActivity</string>
+    <string name="title_activity_reset">ResetActivity</string>
+    <string name="tab_map">世界</string>
+    <string name="tab_mymap">个人</string>
+    <string name="tab_share">社交</string>
+</resources>

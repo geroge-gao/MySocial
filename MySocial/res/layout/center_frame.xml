@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/center_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#aaffffff" >
+
+ 
+    <include layout="@layout/action_bar"
+        android:id="@+id/topbar"/>
+
+    <RelativeLayout
+        android:id="@+id/center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/topbar"
+        android:background="#FFFFFF" >
+        
+        <TextView
+            android:id="@+id/progressText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/progess"
+            android:layout_below="@+id/progess"
+            android:layout_marginTop="18dp"
+            android:text="正在加载" />
+        
+        <ListView
+            android:id="@+id/saying_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </ListView>
+
+        <ProgressBar
+            android:id="@+id/progess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="170dp" />
+
+    </RelativeLayout> 
+
+</RelativeLayout>
